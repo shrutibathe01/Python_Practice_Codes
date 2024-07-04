@@ -1,13 +1,5 @@
-def fibonacci(value):
-    a=0
-    b=1
-    print(a)
-    print(b)
-    for i in range(2,value):
-        c=a+b
-        a=b
-        b=c
-        print(c)
-        
-No=int(input("Enter the number: "))
-fibonacci(No)
+print("Enter the number: ",end='')
+n=int(input())
+mylist=[0,1]
+[mylist. append(sum(mylist[-2:])) for n in range(n)]
+print(*(mylist[:n]))
